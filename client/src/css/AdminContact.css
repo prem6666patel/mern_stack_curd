@@ -1,0 +1,49 @@
+
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    color: #00796b;
+    font-size: 2rem;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  thead {
+    background-color: #0097a7;
+    color: black;
+  }
+  
+  th, td {
+    padding: 16px;
+    text-align: left;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #e0f7fa; 
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #f1f8e9; 
+  }
+  
+  tr:hover {
+    background-color: #b2ebf2; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  

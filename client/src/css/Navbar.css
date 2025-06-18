@@ -1,0 +1,52 @@
+/* Navbar.css */
+
+ header {
+    background-color: #282c34;
+    padding: 1rem 0;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo-brand h3 {
+    color: #61dafb;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    font-size: 1.1rem;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #61dafb;
+    color: #282c34;
+  }
+  
+  /* Optional: Active NavLink styling */
+  /* nav ul li .active {
+    background-color: #61dafb;
+    color: #282c34;
+  }
+   */

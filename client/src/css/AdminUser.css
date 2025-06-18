@@ -1,0 +1,37 @@
+.admin-users {
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .admin-users h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .admin-users table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-users th,
+  .admin-users td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .admin-users th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .admin-users tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .admin-users tr:hover {
+    background-color: #eaf4ff;
+  }
+  

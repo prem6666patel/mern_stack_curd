@@ -1,0 +1,48 @@
+ PageNotFound.css
+
+.pagenotfound-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    text-align: center;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    font-family: 'Poppins', sans-serif;
+    padding: 2rem;
+  }
+  
+  .pagenotfound-container h1 {
+    font-size: 8rem;
+    color: #ff6b6b;
+    margin-bottom: 1rem;
+  }
+  
+  .pagenotfound-container h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .pagenotfound-container p {
+    color: #555;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+  }
+  
+  .back-home {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #61dafb;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-home:hover {
+    background-color: #21a1f1;
+  }
+  

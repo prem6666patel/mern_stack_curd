@@ -1,0 +1,65 @@
+/* Home.css */
+
+ .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    min-height: 90vh;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .home-container h1 {
+    color: #222;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+  
+  .home-container p {
+    color: #555;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    max-width: 800px;
+  }
+  
+  .features, .mission {
+    background-color: white;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    text-align: left;
+  }
+  
+  .features h2, .mission h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .features ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .features ul li {
+    font-size: 1.1rem;
+    color: #444;
+    margin: 0.7rem 0;
+    position: relative;
+    padding-left: 1.5rem;
+  }
+  
+  .features ul li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #61dafb;
+    font-weight: bold;
+  }
+  

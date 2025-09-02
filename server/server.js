@@ -13,11 +13,6 @@ const errorHandler = require("./middleware/errorMiddleware");
 
 const app = express();
 
-// const corsOptions = {
-//   origin: "http://localhost:5174",
-//   methods: "GET,POST,PUT,DELETE,PATCH,HEAD",
-//   credentials: true,
-// };
 
 const corsOptions = {
   origin: "http://localhost:5173",
@@ -52,3 +47,4 @@ connectDB()
   .catch((err) => {
     console.error("Database connection failed", err);
   });
+
